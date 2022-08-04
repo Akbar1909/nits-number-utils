@@ -1,0 +1,20 @@
+{
+  "name": "@nits/number-utils",
+  "version": "1.0.0",
+  "description": "Number functions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup src/index.js --file dist/index.js --format cjs"
+  },
+  "keywords": [],
+  "author": "Akbar1909",
+  "license": "ISC",
+  "repository": {
+    "url": ""
+  },
+  "files": [
+    "/dist"
+  ]
+}
