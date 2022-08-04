@@ -2,19 +2,36 @@
   "name": "@nits/number-utils",
   "version": "1.0.0",
   "description": "Number functions",
-  "main": "dist/index.js",
+  "main": "dist/index.ts",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup src/index.js --file dist/index.js --format cjs"
+    "build": "babel src -d build"
   },
-  "keywords": [],
+  "babel": {
+    "preset": [
+      "latest"
+    ]
+  },
+  "keywords": [
+    "number",
+    "three",
+    "money",
+    "format",
+    "numbers"
+  ],
   "author": "Akbar1909",
   "license": "ISC",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/akbar1909/nits-number-utils"
   },
+  "homepage": "https://github.com/akbar1909/nits-number-utils#readme",
   "files": [
     "/dist"
-  ]
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
 }
