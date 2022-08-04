@@ -1,14 +1,14 @@
 With npm
 
 ```shell
- npm install @nits/number-utils --save
+ npm install @nits.frontend/number-utils --save
 
 ```
 
 With yarn
 
 ```
-add install @nits/number-utils
+yarn add @nits.frontend/number-utils
 
 ```
 

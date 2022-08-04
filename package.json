@@ -1,37 +1,27 @@
 {
-  "name": "@nits/number-utils",
-  "version": "1.0.0",
-  "description": "Number functions",
-  "main": "dist/index.ts",
-  "types": "dist/index.d.ts",
+  "name": "@nits.frontend/number-utils",
+  "version": "1.0.1",
+  "description": "With npm",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "np": "^7.6.2",
+    "npm": "^8.16.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d build"
+    "release": "np"
   },
-  "babel": {
-    "preset": [
-      "latest"
-    ]
-  },
-  "keywords": [
-    "number",
-    "three",
-    "money",
-    "format",
-    "numbers"
-  ],
-  "author": "Akbar1909",
-  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akbar1909/nits-number-utils"
+    "url": "git+https://github.com/Akbar1909/nits-number-utils.git"
   },
-  "homepage": "https://github.com/akbar1909/nits-number-utils#readme",
-  "files": [
-    "/dist"
-  ],
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-latest": "^6.24.1"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akbar1909/nits-number-utils/issues"
+  },
+  "homepage": "https://github.com/Akbar1909/nits-number-utils#readme"
 }
