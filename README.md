@@ -7,7 +7,7 @@ With npm
 
 With yarn
 
-```
+```shell
 yarn add @nits.frontend/number-utils
 
 ```
@@ -15,11 +15,11 @@ yarn add @nits.frontend/number-utils
 #EXAMPLE
 
 ```
-const {addSpaceEvery3Char} = require('@nits/number-utils')
+const {addSpaceEvery3Char} = require('@nits.frontend/number-utils')
 
 ES2015
 
-import {addSpaceEvery3Char} from '@nits/number-utils'
+import {addSpaceEvery3Char} from '@nits.frontend/number-utils'
 
 const result=addSpaceEvery3Char({num:1234567, count:2})
 
