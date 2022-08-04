@@ -9,6 +9,9 @@ function addSpaceEvery3Char({
   separator?: string;
   decimal?: string;
 }) {
+  if (typeof num !== "string" && typeof num !== "number")
+    return "invalid number";
+
   let value = String(Number(num).toFixed(count))
     .replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, separator)
     .replace(".", decimal);
