@@ -2,8 +2,8 @@
   "name": "@nits.frontend/number-utils",
   "version": "1.1.4",
   "description": "With npm",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts.",
+  "main": "index.js",
+  "types": "index.d.ts.",
   "dependencies": {
     "typescript": "^4.7.4"
   },
