@@ -28,3 +28,8 @@ test("addSpaceEvery3Char check for invalid value", () => {
   const result = addSpaceEvery3Char({ num: [] });
   expect(result).toBe("invalid number");
 });
+
+test("addSpaceEvery3Char check for defaultValue", () => {
+  const result = addSpaceEvery3Char({ num: [], defaultValue: "this is array" });
+  expect(result).toBe("this is array");
+});
