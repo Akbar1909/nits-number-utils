@@ -1,5 +1,5 @@
 {
-  "name": "@nits.frontend/array-utils",
+  "name": "@nits.frontend/number-utils",
   "version": "1.1.7",
   "description": "With npm",
   "main": "dist/index.js",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Akbar1909/nits-array-utils.git"
+    "url": "git+https://github.com/Akbar1909/nits-number-utils.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Akbar1909/nits-array-utils/issues"
+    "url": "https://github.com/Akbar1909/nits-number-utils/issues"
   },
-  "homepage": "https://github.com/Akbar1909/nits-array-utils#readme"
+  "homepage": "https://github.com/Akbar1909/nits-number-utils#readme"
 }
