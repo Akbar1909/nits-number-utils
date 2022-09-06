@@ -2,6 +2,13 @@
   "name": "@nits.frontend/number-utils",
   "version": "1.1.7",
   "description": "With npm",
+  "keywords": [
+    "number",
+    "utils",
+    "formatted",
+    "format",
+    "money format"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
