@@ -3,6 +3,7 @@ function addSpaceEvery3Char({
   count = 1,
   separator = " ",
   decimal = ",",
+  
   defaultValue = "invalid number",
 }: {
   num: string | number;
